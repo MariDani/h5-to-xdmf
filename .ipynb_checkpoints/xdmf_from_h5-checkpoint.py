@@ -42,14 +42,14 @@ def init():
     output = widgets.Output()
 
     dataset_type_w = widgets.RadioButtons(
-        options=["fields", "particles"],
+        options=["particles", "fields"],
         description="Dataset type:",
         disabled=False,
         style=style
     )
 
     dirname_w = widgets.Text(
-        value=f"sample_data",
+        value=f"D:{slash}Jupyter{slash}jupyter-xdmf-from-h5{slash}data{slash}3D_fields",
         description="Dirname:",
         disabled=False,
         style=style
