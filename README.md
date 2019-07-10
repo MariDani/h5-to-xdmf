@@ -1,1 +1,3 @@
-"# h5-to-xdmf"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/MariDani/h5-to-xdmf.git git push -u origin master
+# jupyter-h5-to-xdmf
+
+First attempt to create jupyter notebook (in jupyter lab) wo create `.xdmf` file which is neccesary for opening `.h5` files in Paraview
